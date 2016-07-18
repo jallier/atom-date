@@ -2,7 +2,8 @@
   "name": "date-plus",
   "main": "./lib/date-plus.js",
   "version": "1.1.1",
-  "description": "Insert the current date & time. See the readme for format options.",
+  "description": "Insert the current date & time. See the readme for format options.
+  Based on the date package by dannyfritz",
   "activationCommands": {
     "atom-text-editor": [
       "date-plus:date",

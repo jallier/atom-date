@@ -3,7 +3,7 @@
     {
         'label': 'Packages'
         'submenu': [
-            'label': 'Date && Time'
+            'label': 'date-plus: Date && Time'
             'submenu': [
                 { 'label': 'Insert Date', 'command': 'date-plus:date' }
                 { 'label': 'Insert Time', 'command': 'date-plus:time' }

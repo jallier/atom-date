@@ -1,11 +1,12 @@
-# Atom Date Package
+# Atom Date-Plus Package
 
-Insert the current date & time.
+Based on the package by dannyfritz. Insert the current date & time, with optional
+additional padding.
 
 ## Installation
 
 ```sh
-apm install date
+apm install date-plus
 ```
 or find it in the Packages tab under settings
 
@@ -13,7 +14,7 @@ or find it in the Packages tab under settings
 
 Select a command from `Packages`, `Date & Time`.
 
-You can also bind your keys to `date:date`, `date:time` and `date:datetime`.
+You can also bind your keys to `date-plus:date`, `date-plus:time` and `date-plus:datetime`.
 
 # Options
 
@@ -35,3 +36,13 @@ You can specify the following options for the date and time format:
 - SS   - Padded Seconds
 - PP   - AM or PM
 - P    - am or pm
+
+Checking the 'match line length' option for pre/post padding will match the
+length of the date inserted with the first character of the padding string.
+eg
+18/07/16
+becomes
+########
+
+18/07/16
+########
