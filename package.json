@@ -1,16 +1,16 @@
 {
-  "name": "date",
-  "main": "./lib/date.js",
+  "name": "date-plus",
+  "main": "./lib/date-plus.js",
   "version": "1.1.1",
   "description": "Insert the current date & time. See the readme for format options.",
   "activationCommands": {
     "atom-text-editor": [
-      "date:date",
-      "date:time",
-      "date:datetime"
+      "date-plus:date",
+      "date-plus:time",
+      "date-plus:datetime"
     ]
   },
-  "repository": "https://github.com/dannyfritz/atom-date",
+  "repository": "https://github.com/jallier/atom-dateplus",
   "license": "MIT",
   "engines": {
     "atom": ">0.177.0"
